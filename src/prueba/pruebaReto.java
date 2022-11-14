@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class pruebaReto {
 	public static void main(String[]args){
 		System.out.println("Texto en la clase pruebaReto");
-		int num1, num2, operar, suma, resta; 
+		int num1, num2, operar, sumas, restas; 
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Ingrese el número 1: ");
@@ -20,12 +20,12 @@ public class pruebaReto {
 		operar = sc.nextInt();
 		
 		if(operar == 1) {
-			suma = num1 + num2;
-			System.out.println("El resultado es: " + suma);
+			sumas = num1 + num2;
+			System.out.println("El resultado es: " + sumas);
 		}
 		else{
-			resta = num1 - num2;
-			System.out.println("El resultado es: " + resta);
+			restas = num1 - num2;
+			System.out.println("El resultado es: " + restas);
 		}
 	}
 }
